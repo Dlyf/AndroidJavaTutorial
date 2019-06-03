@@ -34,9 +34,26 @@ public class Classtest {
 //
 //      p3.playerInfo();
 
-        Player p = new Player();
-        p.playerInfo();
-//          p.health = 11;
+//        Player p = new Player();
+//        p.playerInfo();
+
+        Warrior w = new Warrior(11, 45, "Warrior");
+
+        w.playerInfo();
+
+//        System.out.println();
+//        w.setHealth(66);
+//        w.setPower(54);
+//        w.setName("Dom");
+//
+//        w.playerInfo();
+
+        // w.setHealth(55);
+
+//        System.out.println("The Name of the warrior is " + w.getName());
+//        System.out.println("The health of the warrior is " + w.getHealth());
+//        System.out.println("The power of the warrior is " + w.getPower());
+//        p.health = 11;
 //        p.setHealth(56);
 
 //        System.out.println("The Heath is " + p.getHealth());

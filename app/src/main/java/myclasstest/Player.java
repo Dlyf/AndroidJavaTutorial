@@ -5,7 +5,8 @@ package myclasstest;
 /*
     a general rule all of your variables should be private
 
-    in short setting the variables to private is called data encapsulation and setting the variables or methods to private will make them accessible only inside of the class itself.
+    in short setting the variables to private is called data encapsulation and setting the variables or methods to
+    private will make them accessible only inside of the class itself.
  */
 
 /**
@@ -16,6 +17,7 @@ public class Player {
     // = a visibility modifier, it can be accessed inside of the class where it is created
 //    public int health;
     // = private, this variable can only be accessed inside of this class where it is created
+    // putting these variables to private is called the encapsulation. This class can manipulate and control these variables.
     private int health;
     private int power;
     private String name;
@@ -43,6 +45,14 @@ public class Player {
 
     public int getHealth() {
         return this.health;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setPower(int power) {
